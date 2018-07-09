@@ -5,3 +5,10 @@ var destructivelyAppendKitten = function(kitten){
   return kittens;
   
 }
+
+var destructivelyPrependKitten = function(kitten){
+  
+  kittens.unshift(kitten);
+  return kittens;
+  
+}
